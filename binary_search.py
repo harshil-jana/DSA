@@ -13,9 +13,9 @@ def binary_search(arr, target):
         elif arr[mid] > target:
             end = mid-1
 
-    return "The target is not present in the array."
+    return -1
 
-numbers = [13,24,27,35,50]
-target = 70
+numbers = [-1,0,3,5,9,12]
+target = 13
 binary = binary_search(numbers, target)
 print(binary)
