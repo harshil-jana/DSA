@@ -8,7 +8,7 @@ def max_consecutive(arr):
         else:
             max_count = max(max_count, count)
             count = 0
-    return max_count
+    return max(max_count, count)
 
 nums = [1,0,1,1,0,1]
 print(max_consecutive(nums))
