@@ -1,3 +1,7 @@
+# Find Number Which Appears Once 
+
+# Method - 1 (Linear Search)
+
 class Solution:
     def findNumappearOne(self, arr: list[int]) -> int:
         n = len(arr)
@@ -18,5 +22,3 @@ class Solution:
 sol = Solution()
 arr = [2,2,1]
 print(sol.findNumappearOne(arr))          
-        
-        
