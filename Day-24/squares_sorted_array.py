@@ -1,6 +1,6 @@
 # Squares of a Sorted Array
 
-Method - 1 (Squares & Sort)
+# Method - 1 (Squares & Sort) - TC : O(N log N) and SC : O(1)
 
 class Solution:
     def sortedSquares(self, nums: list[int]) -> list[int]:
@@ -17,7 +17,7 @@ print(sol.sortedSquares(arr))
 
 # ---------------------------------------
 
-# Method - 2 (Two Pointers)
+# Method - 2 (Two Pointers) - TC : O(N) and SC : O(N)
 
 class Solution:
     def sortedSquares(self, nums: list[int]) -> list[int]:
