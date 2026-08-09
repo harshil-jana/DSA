@@ -13,10 +13,9 @@ class Solution:
             if previous_prefix in prefix_map:
                 length = i - prefix_map[previous_prefix]
                 max_len = max(max_len, length)
-                
             if prefix_sum not in prefix_map:
                 prefix_map[prefix_sum] = i
-        return max_len
+        return max_len                       
 
 sol = Solution()
 arr = [10,5,2,7,1,-10]
