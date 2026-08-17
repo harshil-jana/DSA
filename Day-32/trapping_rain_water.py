@@ -7,7 +7,7 @@ class Solution:
         max_num = max(height)
 
         while j < n: 
-            if i > 1 and height[i] == max_num:
+            if i >= 1 and height[i] == max_num:
                 i += 1
                 j += 1
             elif height[i] == 0:
@@ -26,6 +26,6 @@ class Solution:
         
         return total
 
-height = [0,2,0]
-print(Solution().trap(height))
-        
+
+nums = [0,2,0]
+print(Solution().trap(nums))
